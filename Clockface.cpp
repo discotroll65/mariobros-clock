@@ -37,10 +37,10 @@ void Clockface::setup(CWDateTime *dateTime) {
 
   ground.fillRow(DISPLAY_HEIGHT - ground._height);
 
-  bush.draw(43, 47);
-  hill.draw(0, 34);
-  cloud1.draw(0, 21);
-  cloud2.draw(51, 7);
+  // bush.draw(43, 47);
+  // hill.draw(0, 34);
+  // cloud1.draw(0, 21);
+  // cloud2.draw(51, 7);
 
   updateTime();
 
